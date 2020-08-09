@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginback"
+    tools:context=".login">
+
+    <TextView
+        android:id="@+id/titlelogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/bowlby_one"
+        android:text="Login Page"
+        android:textColor="#6A89CC"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.387" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="150dp"
+        app:cardCornerRadius="50dp"
+        app:cardBackgroundColor="#800C0346"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.875"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <Button
+            android:id="@+id/reg"
+            android:layout_width="100dp"
+            android:layout_height="33dp"
+            android:layout_marginHorizontal="120dp"
+            android:layout_marginVertical="310dp"
+            android:background="@drawable/rounded"
+            android:layout_centerHorizontal="true"
+            android:text="Register" />
+
+
+        <EditText
+            android:id="@+id/passwordlogin"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="35dp"
+            android:layout_marginVertical="150dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/roundededit"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Enter Password"
+            android:inputType="numberPassword"/>
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="100dp"
+            android:layout_height="33dp"
+            android:layout_marginHorizontal="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginVertical="230dp"
+            android:background="@drawable/rounded"
+            android:text="Login" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="170dp"
+            android:layout_height="20dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_marginVertical="280dp"
+            android:text="New User? Register Here"
+            android:textColor="#EAF0F1" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="35dp"
+            android:layout_marginVertical="60dp"
+            android:layout_centerHorizontal="true"
+           android:background="@drawable/roundededit"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Enter Your Name"
+            android:inputType="textPersonName"
+            android:textColor="#2C3335" />
+</RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

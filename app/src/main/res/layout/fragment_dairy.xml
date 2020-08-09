@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_marginVertical="8dp"
+                    android:layout_marginHorizontal="12dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="30dp"
+                    app:cardBackgroundColor="#F0DF87"
+                    >
+                    <TextView
+                        android:id="@+id/guvatext"
+                        android:layout_width="150dp"
+                        android:layout_height="28dp"
+                        android:layout_marginLeft="200dp"
+                        android:layout_marginTop="120dp"
+                        android:fontFamily="@font/archivo_black"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:text="0Gm" />
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="180dp"
+                        android:layout_height="160dp"
+                        android:src="@drawable/cheese" />
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:layout_marginVertical="190dp"
+                        android:textSize="20sp"
+                        android:fontFamily="@font/archivo_black"
+                        android:layout_marginHorizontal="30dp"
+                        android:text="Cheese (1Gm)\n           ₹30" />
+
+                    <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+                        android:id="@+id/chcount"
+                        android:layout_width="102dp"
+                        android:layout_height="31dp"
+                        android:layout_marginHorizontal="220dp"
+                        android:layout_marginTop="170dp"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_marginVertical="8dp"
+                    android:layout_marginHorizontal="12dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="30dp"
+                    app:cardBackgroundColor="#F9DDA4"
+                    >
+                    <TextView
+                        android:id="@+id/melontext"
+                        android:layout_width="150dp"
+                        android:layout_height="28dp"
+                        android:layout_marginLeft="200dp"
+                        android:layout_marginTop="120dp"
+                        android:fontFamily="@font/archivo_black"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:text="0Gm"
+                         />
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="180dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/butter2"
+                    />
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:layout_marginVertical="190dp"
+                        android:textSize="20sp"
+                        android:fontFamily="@font/archivo_black"
+                        android:layout_marginHorizontal="30dp"
+                        android:text="Butter (1Gm)\n         ₹35" />
+                    <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+                        android:id="@+id/butcount"
+                        android:layout_width="102dp"
+                        android:layout_height="31dp"
+                        android:layout_marginHorizontal="220dp"
+                        android:layout_marginTop="170dp"/>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_marginVertical="8dp"
+                    android:layout_marginHorizontal="12dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="30dp"
+                    app:cardBackgroundColor="#DFAF2B"
+                    >
+                    <TextView
+                        android:id="@+id/orangetext"
+                        android:layout_width="150dp"
+                        android:layout_height="28dp"
+                        android:layout_marginLeft="200dp"
+                        android:layout_marginTop="120dp"
+                        android:fontFamily="@font/archivo_black"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:text="0KG"
+                        />
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="180dp"
+                    android:layout_height="160dp"
+                    android:src="@drawable/icecreme" />
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:layout_marginVertical="190dp"
+                        android:textSize="20sp"
+                        android:fontFamily="@font/archivo_black"
+                        android:layout_marginHorizontal="30dp"
+                        android:text="Ice Creme (1KG)\n            ₹125" />
+                    <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+                        android:id="@+id/icecount"
+                        android:layout_width="102dp"
+                        android:layout_height="31dp"
+                        android:layout_marginHorizontal="220dp"
+                        android:layout_marginTop="170dp" />
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_marginVertical="8dp"
+                    android:layout_marginHorizontal="12dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="30dp"
+                    app:cardBackgroundColor="#DAE0E2"
+                    >
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="180dp"
+                    android:layout_height="160dp"
+                    android:layout_weight="2"
+                    android:src="@drawable/milk1" />
+                    <TextView
+                        android:id="@+id/pinetext"
+                        android:layout_width="150dp"
+                        android:layout_height="28dp"
+                        android:layout_marginLeft="200dp"
+                        android:layout_marginTop="120dp"
+                        android:fontFamily="@font/archivo_black"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:text="0liter"></TextView>
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:layout_marginVertical="190dp"
+                        android:textSize="20sp"
+                        android:fontFamily="@font/archivo_black"
+                        android:layout_marginHorizontal="30dp"
+                        android:text="Milk (1KG)\n         ₹60" />
+                    <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+                        android:id="@+id/milkcount"
+                        android:layout_width="102dp"
+                        android:layout_height="31dp"
+                        android:layout_marginHorizontal="220dp"
+                        android:layout_marginTop="170dp" />
+                </androidx.cardview.widget.CardView>
+
+                <Button
+                    android:id="@+id/ok2"
+                    android:layout_width="147dp"
+                    android:layout_height="53dp"
+                    android:layout_marginHorizontal="110dp"
+                    android:layout_marginBottom="60dp"
+                    android:background="@drawable/circular_button"
+                    android:text="ADD TO CART" />
+            </LinearLayout>
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>

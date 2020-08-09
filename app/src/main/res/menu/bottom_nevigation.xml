@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/vegi"
+        android:icon="@drawable/ladyfinger"
+        android:title="Vegetables"></item>
+    <item
+        android:id="@+id/dairy"
+        android:icon="@drawable/milk1"
+        android:title="Dairy Products"></item>
+    <item
+        android:id="@+id/fruits"
+        android:icon="@drawable/apple2"
+        android:title="Fruits"></item>
+</menu>

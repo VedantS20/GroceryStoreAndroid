@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ShopZone</string>
+    <string name="Navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="Navigation_drawer_close">close Navigation Drawer</string>
+</resources>
